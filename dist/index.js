@@ -1,17 +1,13 @@
 "use strict";
-const obj = {
-    height: 3434,
-    weight: 34,
-    gender: true
+// type Obj={
+//     height:number;
+//     weight:number;
+//     gender?:boolean;
+// }
+const getData = (product) => {
+    console.log(product);
 };
-const obj2 = {
-    height: 67,
-    weight: 94,
-    gender: false
+const product1 = {
+    name: "Mackbook", stock: 46, price: 9999, photo: "sample photo url"
 };
-const func = (n, m, l) => {
-    if (typeof l === "undefined")
-        return n * m;
-    return n * m * l;
-};
-func(25, 23);
+getData(product1);
