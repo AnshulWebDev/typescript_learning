@@ -31,7 +31,7 @@ const getData:GetDataType=(product)=>{
     console.log(product)
 };
 
-const product1={
+const product1:Product={
     name:"Mackbook",stock:46,price:9999,photo:"sample photo url"
 };
 
